@@ -3,6 +3,14 @@
 </template>
 <script setup lang="ts">
   console.log('1');
+
+  const abc = 1;
+  console.log('abc', abc);
+  console.log(abc);
 </script>
 
-<style scoped></style>
+<style scoped lang="scss">
+  div {
+    color: red;
+  }
+</style>
