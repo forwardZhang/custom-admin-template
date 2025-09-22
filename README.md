@@ -1,2 +1,4 @@
 # custom-admin-template
-基于vben-admin精简版本
+
+介绍：
+1.这是这个vue3+ts + monorepo 的基础模板
