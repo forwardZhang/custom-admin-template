@@ -15,7 +15,7 @@
   div {
     width: 100px;
     height: 100px;
-    color: v-bind(currcolor);
-    background-color: v-bind(bgcolor);
+    color: v-bind(currColor);
+    background-color: v-bind(BGCOLOR);
   }
 </style>
