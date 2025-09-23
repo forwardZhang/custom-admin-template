@@ -7,12 +7,15 @@
   const abc = 1;
   console.log('abc', abc);
   console.log(abc);
+  const currColor = 'red';
+  const BGCOLOR = 'red';
 </script>
 
 <style scoped lang="scss">
   div {
-    color: red;
-    height: 100px;
     width: 100px;
+    height: 100px;
+    color: v-bind(currcolor);
+    background-color: v-bind(bgcolor);
   }
 </style>
